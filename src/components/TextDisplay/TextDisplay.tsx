@@ -1,3 +1,3 @@
 export function TextDisplay({ text }: { text: string }) {
-  return <div>{text}</div>;
+  return <div className="text-display">{text}</div>;
 }
